@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         $this->call(
             [
                 DataBarangSeeder::class,
+                PenjualanSeeder::class
             ]
         );
     }

@@ -26,6 +26,12 @@
                     <p>Data Barang</p>
                 </a>
             </li>
+            <li class="nav-item @if (Request::segment(1) == 'penjualan') active @endif">
+                <a href="/penjualan" class="nav-link">
+                    <i class="nav-icon fas fa-shopping-bag"></i>
+                    <p>Penjualan</p>
+                </a>
+            </li>
 
         </ul>
     </nav>

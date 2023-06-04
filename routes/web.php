@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DataBarangController;
+use App\Http\Controllers\PenjualanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,3 +18,4 @@ use App\Http\Controllers\DataBarangController;
 
 Route::resource('/', DashboardController::class);
 Route::resource('/data-barang', DataBarangController::class);
+Route::resource('/penjualan', PenjualanController::class);
